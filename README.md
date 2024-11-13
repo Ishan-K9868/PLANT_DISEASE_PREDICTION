@@ -9,34 +9,34 @@ This project leverages a Convolutional Neural Network (CNN) to classify plant di
 ### Mac/Linux
 To create and activate a virtual environment, use the following commands:
 
-\`\`\`bash
+```bash
 python3 -m venv venv
 source venv/bin/activate
-\`\`\`
+```
 
 ### Windows
 To create and activate a virtual environment, use:
 
-\`\`\`cmd
+```cmd
 python -m venv venv
 .\\venv\\Scripts\\activate
-\`\`\`
+```
 
 ## 2. Install Dependencies
 
 After activating the virtual environment, install the necessary dependencies:
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ## 3. Running the Application
 
 Start the application using Streamlit:
 
-\`\`\`bash
+```bash
 streamlit run app/main.py
-\`\`\`
+```
 
 This will start a local server. Open your web browser and navigate to the URL provided by Streamlit (typically [http://localhost:8501](http://localhost:8501)).
 
